@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absensi Kelas B</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 90%;
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        button {
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Absensi Kelas B</h1>
+
+        <h2>Daftar Siswa Laki-laki</h2>
+        <table>
+            <tr>
+                <th>Nama</th>
+                <th>NIM</th>
+                <th>Hadir</th>
+            </tr>
+            <tr>
+                <td>Arvie Tevin Iskandar</td>
+                <td>2404687</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Fauzin Toufiqur Rahman</td>
+                <td>2409699</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Garin Ahqaf Jazira</td>
+                <td>2406999</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Marciano Mayer Anugrah</td>
+                <td>2400753</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Miftahul Zamri</td>
+                <td>2407038</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Muhammad Hildan Kamil</td>
+                <td>2400730</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Rivaldi Putra Raviansyah</td>
+                <td>2403098</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Yasmanul Fikrian Ichsan</td>
+                <td>2404749</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+        </table>
+
+        <h2>Daftar Siswa Perempuan</h2>
+        <table>
+            <tr>
+                <th>Nama</th>
+                <th>NIM</th>
+                <th>Hadir</th>
+            </tr>
+            <tr>
+                <td>Intan Siti Nur'aurunnisa</td>
+                <td>2409665</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Alvira Marsya Purnama</td>
+                <td>2404371</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Yulis Shifa Salsabila</td>
+                <td>2404507</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Putri Zahirah Yasmin</td>
+                <td>2404340</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Annisa Aqillah Hidayat</td>
+                <td>2406175</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Ardelia Davina Putri</td>
+                <td>2405873</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Siti Rohaniah</td>
+                <td>2401360</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Ghefira Liswara Putri</td>
+                <td>2408290</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Riani Anggraeni</td>
+                <td>2401466</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Hanna Salsabila</td>
+                <td>2408455</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Jescenia Alifah Suryadi</td>
+                <td>2404514</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Farida Affifah Maharani</td>
+                <td>2404736</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Giselle Isabelle Bahtiar</td>
+                <td>2405051</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Asma Asiyah</td>
+                <td>2401644</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Najla Nurul Hikmah</td>
+                <td>2401200</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Diana</td>
+                <td>2409309</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Revaya Shafinaz Azzahra</td>
+                <td>2401199</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Nizzah Uli Aida</td>
+                <td>2406158</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Siti Farisya Hisani</td>
+                <td>2404397</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+            <tr>
+                <td>Adinda Lestari Prastiawati</td>
+                <td>2404441</td>
+                <td><button onclick="absen(this)">Hadir</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        function absen(button) {
+            button.textContent = "Sudah Hadir";
+            button.disabled = true;
+        }
+    </script>
+</body>
+</html>
